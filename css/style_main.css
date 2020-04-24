@@ -1,0 +1,145 @@
+/* Keeps a standard width when using padding */
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.reason { text-align: center; 
+    font-style: italic;
+    color: rgb(66, 24, 165); 
+}
+
+/* creates a side by side block of the images and highlights */
+div.image_block, div.highlights_block {
+    margin-top: 1%;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+/* sets the width of the image section to 60% of the block */
+div.image_block {
+    margin-left: 5%;
+    max-width: 60%; 
+    text-align: center ; 
+    margin-bottom: 20px; 
+}
+
+/* makes a max height for images while cropping out
+   the less important parts and still allowing user
+   to view the images at full size.  
+
+   Found out how to object-fit on stackoverflow
+*/
+.images_of_week img {
+    object-fit: cover;
+    width: 32%;
+    height: 300px;
+    margin-bottom: 2%; 
+}
+
+/* font and color for the image heading */
+.image_block h2 {
+    text-align: center;
+    color: rgb(51, 32, 104); 
+}
+
+/* sets the width of the highlight section to 40% of the block */
+
+/* font and color for the highlights heading */
+/* Creates a title "box" inside the other boxes */
+.highlights_block h2 {
+    text-align: center;
+    max-width: 100%;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: red;
+    margin-left: 20%;
+    margin-right: 2%; 
+}
+
+.highlights1, .highlights2 {
+    margin-left: 15%;
+    margin-bottom: 3%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: red;
+    padding: 15px;
+}
+.highlights1 img, .highlights2 img {
+    margin: 1px;
+    max-height: 200px;
+    width: 200px;
+    border: solid transparent;
+}
+
+/* Settings for the highlights date */
+.highlights_block .date, .image_block .date {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+    margin-left: 40px;
+}    
+
+
+/* centers the image and text inside the highlights paragraph */
+.highlights_block p {
+    text-align: center;
+}
+
+/* Updates Section */
+
+.updates h2 {
+    text-align: center;
+    max-width: 100%;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: blue; 
+}
+
+/* Settings for the updates date */
+.updates .date {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+    margin-left: 40px;
+    text-align: left;
+}    
+
+/* sets the font for the updates */
+.updates {
+    padding: 10px;
+    padding-top: 0px;
+    margin-left: 5%;
+    max-width: 80%;
+    color: blue;
+    text-align: justify;
+}
+
+.new_update a {
+    text-decoration: none;
+    color: red;
+}
+
+.new_update a:hover {
+    color: blue;
+}
+.new_update {
+    text-align: center;
+    color: red; 
+}
+
+.up1 {
+    padding-top: 4px;
+}
+
+/* Image shadowing */
+img.test:hover {
+    border: solid 1px grey;
+    box-shadow: 3px 3px 5px grey; 
+}

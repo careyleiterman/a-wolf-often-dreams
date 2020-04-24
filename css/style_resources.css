@@ -1,0 +1,17 @@
+.resource_title {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.suicide {
+    margin: 5% 10%;
+    color: rgba(255, 0, 0, 0.774);
+}
+
+.resources h3 {
+    margin-left: 10%;
+}
+
+.resources li {
+    margin-left: 10%;
+}

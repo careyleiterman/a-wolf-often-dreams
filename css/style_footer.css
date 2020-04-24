@@ -1,0 +1,56 @@
+/* Footer */
+
+/* sets up footer padding */
+footer { border : rgb(168, 33, 33); 
+    border-style : solid; 
+    background:rgb(168, 33, 33);
+    padding-top: 10px; 
+}
+
+/* sets up the footer links in a row inline */
+footer li { display: inline;
+    margin: 20px; 
+}
+
+/* Footer turns shade of blue */
+footer a:hover {
+    text-decoration: none;
+    color: rgb(26, 8, 141);
+}
+
+/* Footer Color */
+footer a {
+    color: white;
+    text-decoration: none; 
+}
+
+/* keeps icons at least 25% away from the div.left */
+div.footer-right {
+ padding-left: 6%;
+
+}
+/* makes icons appear close together */ 
+div.footer-right li {
+ margin-right: 5px;
+}
+
+/* pads the text on the top */
+div.footer_left {
+ padding-top: 5px;
+}
+/* lines up the footers left and right sides */
+div.footer-left, div.footer-right {
+ display: inline-block;
+ vertical-align: top;
+}
+
+/* makes the icons 30px */
+#instagram, #facebook{
+ width: 30px;
+ border-radius: 30%;
+}
+
+#instagram:hover, #facebook:hover {
+    border: solid 2px darkslategrey;
+    box-shadow: 1px 1px 1px darkslategrey;
+}

@@ -1,0 +1,45 @@
+
+.submit_button {
+    background-color: lightgreen;
+}
+
+.reset_button {
+    background-color: rgb(248, 94, 94);
+}
+
+.reset_text {
+    text-indent: 2%;
+}
+
+.signup {
+    background-color: rgb(255, 255, 255);
+}
+
+.form_background {
+    background-color: lightblue;
+}
+
+.form_textarea {
+    border-width: 5px;
+    border-color: rgb(104, 158, 207);
+}
+
+.form_bottom {
+    padding: 2%;
+}
+
+.form_h1 {
+    text-align: center; 
+    color: rgb(61, 129, 192);
+}
+
+.beinformed p {
+    text-align: justify;
+    max-width: 62%;
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+.interest_text {
+    max-width: 75%;
+}

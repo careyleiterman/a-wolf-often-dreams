@@ -1,0 +1,52 @@
+/* Navigation */
+
+/* creates the scared of cockroach banner in the header */
+.banner {  
+      color : rgb(51, 32, 104); 
+      /* font-family: 'Lacquer', Arial, Helvetica, sans-serif; 
+         Wasn't thrilled with this font so putting on hold */
+      font-family: 'Times New Roman', Times, serif, Arial;}
+
+/* centers the roach banner */
+h1.roach { text-align: center; }
+
+/* Makes the text of the header links red */
+header a { color: rgb(168, 33, 33); }
+
+/* sets up the navigation pane at the top of the page */
+nav { border : rgb(168, 33, 33); 
+      border-style : solid; 
+      border-radius: 50px; 
+      background:rgb(168, 33, 33); 
+}
+
+nav { 
+border-style: solid;
+
+background: white; }
+
+/* sets up the nav links in a row inline and pads them */
+nav li { display: inline;
+         font-size: large;
+         padding-right: 25px; }
+
+/* centers the navigation pane */
+nav ul { text-align: center; }
+
+/* Hovering Control */
+
+/* Links turn shade of blue */
+nav a:hover {
+      color: rgb(26, 8, 141);
+}
+
+nav a {
+      text-decoration: none;
+}
+a:hover {
+      color: blue;
+}
+/* hides a link until ready in the future */
+li.coming-soon {
+    display: none;
+}

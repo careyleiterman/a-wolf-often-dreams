@@ -1,0 +1,35 @@
+/* Mission Section */
+
+.main_mission {
+    padding-top: 2px;
+    display: inline-block;
+    vertical-align: bottom;
+    box-sizing: content-box;
+}
+
+div.mission img {
+    max-width: 9%;
+    height: auto;
+    margin-left: 16%;
+    margin-right: 11%;
+
+}
+
+div.mission h2 {
+    margin-left: 6.5%;
+    margin-right: 4.5%;
+    margin-bottom: 5%;
+    padding-left: 1%;
+}
+
+div.mission p {
+    max-width: 50%;
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+div.mission p:first-letter {
+    font-size: 140%;
+}
